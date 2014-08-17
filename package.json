@@ -1,0 +1,26 @@
+{
+  "name": "dat-osm-import",
+  "version": "0.0.0",
+  "description": "Import OpenStreetMap data into dat",
+  "bin": {
+    "dat-osm-import": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astro/dat-osm-import.git"
+  },
+  "keywords": [
+    "dat",
+    "osm"
+  ],
+  "author": "Astro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astro/dat-osm-import/issues"
+  },
+  "dependencies": {
+    "dat": "^6.1.0",
+    "osm-pbf-parser": "^2.0.1",
+    "through2": "^0.6.1"
+  }
+}
